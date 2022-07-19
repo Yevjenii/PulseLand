@@ -1,0 +1,32 @@
+.feedback{
+    padding-bottom: 48px;
+    &__img{
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+        display: block;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__exp{
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr{
+        width: 680px;
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0D0D0D;
+    }
+}
