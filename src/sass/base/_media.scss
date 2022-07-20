@@ -112,7 +112,33 @@
             width: 100%;
         }
     }
-
+    .footer{
+        &__info{
+            width: 100%;
+            padding: 50px 20px;
+        }
+    }
+    .modal{
+        position: absolute;
+        width: 100vw;
+        top: auto;
+        left: auto;
+        transform: translate(0%, 0%);
+        bottom: 0px;
+        padding: 20px;
+        &__close{
+            position: absolute;
+            top: -40px;
+            right: 20px;
+            font-size: 41px;
+            line-height: 21px;
+            color: $main-color;
+            cursor: pointer;
+        }
+    }
+    .feed-form{
+        width: 100%;
+    }
 }
 
 @media(max-width:575px){
